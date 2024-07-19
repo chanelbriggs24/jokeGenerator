@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.joke-button-element {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 16px;
+}
+
+.joke-button-element:hover {
+  background-color: #ac69d5;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.joke-text {
+  text-align: center;
+  font-size: 16px;
+}
